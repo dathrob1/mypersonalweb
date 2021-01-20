@@ -12,11 +12,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <style type="text/css">
         @media all and (min-width: 992px) {
-            .navbar .nav.item .nav-link { background-color: black;}
-             .navbar .dropdown-menu .dropdown-toggle{ display: none;color:black }
-            .navbar .nav-link:hover{ background-color:black;color: blue;}
+            .nav-link {color:black}
+            .nav-link:hover {background-color:black;color:white}
+             .navbar .dropdown-menu .dropdown-toggle{ display: none; }
             .navbar .nav-item:hover .dropdown-menu{ display: block; }
-            .navbar .nav-item .dropdown-menu{ margin-top:0; text-decoration-color: black;} 
+            .navbar .nav-item .dropdown-menu{ margin-top:0; } 
             .centered {
         position: absolute;
         top: 50%;
@@ -38,12 +38,17 @@
         .card{
             border: white;
         }
-        
+        .fa:hover{
+            color:white;
+        }
+        .navcol{
+            color:black;
+        }
         </style>
 
 </head>
 <body  >
-    <nav class="navbar navbar-expand-md navbar-dark text-dark bg-primary" aria-label="Fourth navbar example">
+    <nav class="navbar navbar-expand-md " aria-label="Fourth navbar example">
         <div class="container">
           <h2 class="navbar-brand text-dark" >MISGANAW MESERET</h2>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,27 +58,20 @@
           <div class="collapse navbar-collapse " >
             <ul class="navbar-nav  ml-auto ">
                 <li class="nav-item dropdown" >
-                    <a class="nav-link  dropdown-toggle " href="#" data-toggle="dropdown">  More items  </a>
+                    <a class="nav-link  dropdown-toggle " href="#" data-toggle="dropdown"> About </a>
                      <ul class="dropdown-menu">
                          <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
                          <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
                      </ul>
                  </li>
-              <li class="nav-item dropdown" >
-                <a class="nav-link  dropdown-toggle " href="#" data-toggle="dropdown">  More items  </a>
-                 <ul class="dropdown-menu">
-                     <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-                     <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-                 </ul>
-             </li>
-             <li class="nav-item dropdown" >
-                <a class="nav-link  dropdown-toggle " href="#" data-toggle="dropdown">  More items  </a>
-                 <ul class="dropdown-menu">
-                     <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-                     <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-                 </ul>
-             </li>
               
+                 <li class="nav-item">
+                    <a class="nav-link" href="services.html">Music Production</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link navcol" href="services.html">Blog</a>
+                </li>
                     
               </li>
               <li ><a href="#" class="nav-link" style="color: black;"><i class="fa fa-twitter" ></i></a></li>
@@ -92,34 +90,38 @@
        <h1> I’m a YouTuber, podcaster, and author passionate about helping people become more capable and productive.</h1>
     </div>
     <br>
-    <div class="row text-center px-6">
+    <div class="row text-center px-6 ml-2">
         <div class="col-lg-6"><h1>Video Essays</h1></div>
     </div>
-    <div class="row text-center px-6">
-        <div class="col-lg-6 text-left"><p>I’m probably best-known for my YouTube channel that explores topics in personal development like productivity, learning, and habits. 
-
-            I’m a camera nerd and have a horrible case of Gear Acquisition Syndrome, so my videos often have unnecessary cinematic sequences that are way too much fun to make.
-            
-            Most of my videos are on YouTube, but they can also be viewed ad-free on Nebula, a creator-run streaming service of which I’m an owner. You might even find some exclusive videos there…</p></div>
-        <div class="col-lg-4"> <iframe width="638" height="488" src="https://www.youtube.com/embed/esTUbxP0YCQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="row text-center px-6 ml-2" >
+        <div class="col-lg-6 text-left">
+            <p>I’m a stundet,musician, and
+                programmer who is passionate about helping
+                the country to become more capable of poverty alivating.
+                
+                I am currently studying Information Technoloy in AAiT
+                Addis Ababa University                
+                      
+                Me and Myfriends are currently working to launch
+                our first android app in the summer.</p></div>        <div class="col-lg-4"> <iframe width="638" height="488" src="https://www.youtube.com/embed/esTUbxP0YCQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div></div>
 
     </div>
     <div class="row text-center px-6">
         <div class="col-lg-6">
-            <div class="row">
-                <div class="col-lg-6"><button type="button" class="btn  btn-lg  btn-block">Large button</button></div>
+            <div class="row ml-2">
+                <div class="col-lg-6"><button type="button" class="btn  btn-lg  btn-block">Larg1 button</button></div>
                 <div class="col-lg-6"><button type="button" class="btn  btn-lg  btn-block ">Large button</button></div>
             </div>
         </div>
 </div>
 <div class="row text-center px-6">
     <div class="col-lg-6"><h1></h1></div>
-    <div class="col-lg-6"><h1>Video Essays</h1></div>
+    <div class="col-lg-6"><h1>More about me</h1></div>
 
 </div>
-<div class="row text-center px-4">
-    <div class="col-lg-6 text-left"> 
+    <div class="row text-center px-4">
+     <div class="col-lg-6 text-left"> 
         <div id="MySlide" class="carousel slide " data-ride="carousel">
 
 
@@ -148,11 +150,25 @@
             <span class="sr-only">Next</span>
         </a>
 
-    </div>
-    
+    </div> </div>
+    <div class="col-lg-6 text-left"> <p> i was born and raised in Addis Ababa,Ethiopia.
+        As a kid i was passionate about programming and website development.
+        
+        
+        
+        I was introduced to html when i was a grade 7 student.
+        I still remember the happiness i felt when i opened my html files on a browser.
+        I love learning web development and programminng,as i aspired                
+        to learn it as a little kid.
+        
+        
+        I hope to be a programmer and a musician in the near future.
+        hopefully my works will be released soon. </p></div>
 
 </div>
-<div class="col-lg-6"><h3>notes <br><br> <br> <br><br><br><br><br></h3></div></div>
+
+
+
 <div class="row text-center px-6">
     <div class="col-lg-6"></div>
     <div class="col-lg-6">
@@ -161,10 +177,6 @@
             <div class="col-lg-6"><button type="button" class="btn btn-lg  btn-block">Large button</button></div>
         </div>
     </div>
-</div>
-<div class="row text-center px-6">
-    <div class="col-lg-6">note</div>
-    <div class="col-lg-6">image</div>
 </div>
 <div class="row text-center px-6">
     <div class="col-lg-4"><div class="card">
@@ -211,9 +223,9 @@
 </div>
 
     </body>
-    <footer >
+    <footer style="background-color: #54595F;">
         <div>
-            <div class="row  px-6">
+            <div class="row  px-6 ml-2" >
                 <div class="col-lg-9"><div class="input-group mb-3">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="basic-addon1">@</span>
